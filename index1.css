@@ -1,0 +1,176 @@
+/* Ерөнхий тохиргоо */
+.body {
+  background-size: 30%;
+  background-position: center 50px;
+  margin: auto;
+  top: 5%;
+}
+#gameContainer {
+  position: relative;
+  background-image: url(./backgroundimage.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 100%;
+  aspect-ratio: 1/2.3;
+  background-position: center;
+  /* Ногоон өнгө */
+  border-radius: 10px;
+  width: 1000px;
+  height: 1000px;
+}
+.instrument {
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  border-radius: 50%;
+  background-color: rgb(172, 151, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(197, 135, 135, 0.3);
+  cursor: pointer;
+  border-color: #ffffff;
+}
+.instrument img {
+  width: 100%;
+  height: auto;
+  background-color: none;
+  border-radius: 100%;
+}
+/* Ерөнхий тохиргоо  buttonuudin tclass*/
+.button body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7e9;
+}
+
+.top-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 95%;
+  position: relative;
+  height: 8%;
+  top: 10%;
+  margin: auto;
+}
+/* Нот дүрс ба тоо */
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 15%;
+  aspect-ratio: 1/0.6;
+  width: 13%;
+}
+.note {
+  font-size: 25px;
+  color: #15274a;
+  margin-right: 5px;
+}
+.number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #15274a;
+  padding: 5%;
+}
+.soundIcon {
+  width: 8%;
+  height: 25%;
+  background-color: #bcdb40;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+/* Дугуй товчлуурууд */
+.circle-button {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-color: #40dbcc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-color: #ffffff;
+  /* transition: transform 0.2s ease;*/
+}
+.circle-button img {
+  width: 40%;
+  height: auto;
+}
+.soundClose {
+  display: flex;
+  gap: 15%;
+  position: absolute;
+  left: 85%;
+  margin:1%;
+  visibility: hidden;
+  
+}
+.startButton {
+  width: 20%;
+  height: 80%;
+  background-color: rgb(55, 220, 245);
+  border-color: #ffffff;
+  font-size: 150%;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:20%;
+  bottom: 8%;
+  left: 38%;
+  font-weight: 300;
+  cursor: pointer;
+  position:absolute;
+  left:75%;
+}
+.gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  font-size: 45px;
+  display: none;
+  font-family: "Audiowide", sans-serif;
+  color:red;
+}
+.close {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 7%;
+  top: 44%;
+  display: none;
+}
+@keyframes ajillah {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}

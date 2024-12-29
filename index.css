@@ -1,0 +1,54 @@
+#welcomeText {
+  position: absolute;
+  top: 25%;
+  font-size: 180%;
+  font-family: "Audiowide", sans-serif;
+
+ 
+}
+#landingPage{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:1000px;
+  width:100%;
+
+}
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1/0.7;
+  top:100px;
+  background: linear-gradient(to top, #00ffff, #8b8beb);
+  width:1200px;
+}
+#playButtonForKids {
+  position: absolute;
+  background-color: #00ffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#playButtonStandart {
+  position: absolute;
+  top: 55%;
+  background-color: #00ffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.soundControlButton{
+  position:absolute;
+  bottom:20px;
+  right:100px;
+  padding:20px;
+  font-size:20px;
+  cursor:pointer;
+  background-color:aquamarine;
+  border:none;
+  border-radius:10px;
+  color:rgb(32, 130, 216);
+}
